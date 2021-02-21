@@ -1,0 +1,6 @@
+[submodule "lib/artemisa-interfaces"]
+	path = lib/artemisa-interfaces
+	url = https://github.com/genetius/artemisa-interfaces.git
+[submodule "lib/artemisa-server-application"]
+	path = lib/artemisa-server-application
+	url = https://github.com/genetius/artemisa-server-application.git

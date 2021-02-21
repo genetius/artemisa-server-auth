@@ -1,0 +1,35 @@
+{
+  "name": "artemisa-server-auth",
+  "version": "0.0.1",
+  "description": "",
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "scripts": {
+    "start": "tsc && node ./dist/src/index.js",
+    "build": "tsc"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/genetius/artemisa-server-auth.git"
+  },
+  "author": "Antonio Ruiz Gutierrez",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/genetius/artemisa-server-auth/issues"
+  },
+  "homepage": "https://github.com/genetius/artemisa-server-auth#readme",
+  "devDependencies": {
+    "@types/node": "^13.13.5",
+    "ts-loader": "^7.0.0"
+  },
+  "dependencies": {
+    "@piros/ioc": "0.0.5",
+    "@types/node": "^13.13.5",
+    "@types/pg": "^7.14.3",
+    "express": "^4.17.1",
+    "pg": "^8.2.1",
+    "rxjs": "^6.5.5",
+    "typescript": "^3.8.3",
+    "uuid": "^8.1.0"
+  }
+}
